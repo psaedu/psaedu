@@ -1,9 +1,9 @@
 //Power system analysis course supporting software package
 //Load curve drawing module
 
-module_path = '../code/load_curve_module.sce';
+module_path = 'sec_1.sce';
 exec(module_path); // load module
-data_path = '../data/load_2017_2019.csv';
+data_path = '../load_data.csv';
 load_data = get_all_load_data(data_path); // load data
 
 year = 2017; month = 3; day = 4;
